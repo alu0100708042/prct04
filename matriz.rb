@@ -12,7 +12,7 @@
 
 	# asignación de get y set
 
-	attr_reader :matriz, :filas, :columnas
+	attr_reader :matriz, :row, :col
 	#metodo para mostrar las matrices
 	def imprimir_Matriz
 		x,y = 0,0
