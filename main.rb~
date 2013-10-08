@@ -26,18 +26,18 @@ m_MatrizA = Matriz.new(m1)
 m_MatrizB = Matriz.new(m2)
 
 puts "Matriz A:"
-m_MatrizA.imprimir_Matriz()
+m_MatrizA.imprimir_Matriz
 
 puts
 
 puts "Matriz B:"
-m_MatrizB.imprimir_Matriz()
+m_MatrizB.imprimir_Matriz
 
 puts "Suma de las dos matrices"
 m_MatrizA.sumar(m_MatrizB).imprimir_Matriz
 
 
-puts " Multiplicacion de dos matrices"
+puts "Multiplicacion de dos matrices"
 #m_MatrizA.multiplicar(m_MatrizB).imprimir_Matriz
 puts
 

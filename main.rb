@@ -37,7 +37,7 @@ puts "Suma de las dos matrices"
 m_MatrizA.sumar(m_MatrizB).imprimir_Matriz
 
 
-puts " Multiplicacion de dos matrices"
-#m_MatrizA.multiplicar(m_MatrizB).imprimir_Matriz
+puts "Multiplicacion de dos matrices"
+m_MatrizA.multiplicar(m_MatrizB).imprimir_Matriz
 puts
 
