@@ -19,7 +19,7 @@
 		
 		while x < row
 			while y < col
-				print("#{matriz[i][j]} \t")
+				print("#{matriz[x][y]} \t")
 				print("") 
 				j += 1			
 			end
