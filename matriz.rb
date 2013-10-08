@@ -50,4 +50,33 @@
 		Matriz.new (sum)
 
 	end
+	#definicion del metodo multiplicar
+	def multiplicar(matrizc)
+
+    		matRes = Array.new(matriz.size - 1,0)
+
+		for fil in 0...matriz[0].size
+
+			matRes[fil] = Array.new(matrizc.matriz.size,0)
+
+			for col in 0...matrizc.matriz.size
+
+				for pos in 0...matriz.size
+
+					prod = matriz[fil][pos] * matrizc.matriz[pos][col]
+					matRes[fil][col] = matRes[fil][col] + prod
+
+				end
+
+			end
+
+    		end
+
+    		Matriz.new(matRes)
+
+  	end
+
+
+
+end
 end 
