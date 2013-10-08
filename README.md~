@@ -7,15 +7,3 @@
  contendrá los métodos necesarios para realizar la separación de matrices 
  correctamente, y ademas contrendrá el método sumar y el método multiplicar en la 
  que realizará las operaciones pertinentes.
-
-
-Este es un error que nos dio al intentar actualizar
-Se solucionó haciendo un pull para descargar las actualizaciones, después un git merge para fusionar los cambios, y por ultimo el git push.
-
-alu4427@cc162:~/datos/homes.rala/LPP/prct04$ git push -u origin master
-To git@github.com:alu0100708042/prct04.git
- ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'git@github.com:alu0100708042/prct04.git'
-To prevent you from losing history, non-fast-forward updates were rejected
-Merge the remote changes (e.g. 'git pull') before pushing again.  See the
-'Note about fast-forwards' section of 'git push --help' for details.
