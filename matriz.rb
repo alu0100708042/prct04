@@ -50,3 +50,4 @@
 		Matriz.new (sum)
 
 	end
+end 
