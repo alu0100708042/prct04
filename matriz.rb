@@ -21,11 +21,11 @@
 			while y < col
 				print("#{matriz[x][y]} \t")
 				print("") 
-				j += 1			
+				y= y + 1			
 			end
 			puts
-    			i = i + 1
-    			j = 0
+    			x  =  x + 1
+    			y = 0
 		end
 		puts 
 	end
@@ -38,14 +38,14 @@
 		while x < row
 			while y < col
 				if y == 0
-					sum << [matriz[i][j]] + matrizb.matriz[i][j]
+					sum << [matriz[x][y]] + matrizb.matriz[x][y]
 				else
-					sum[i] << matriz[x][y] + matrizb.matriz[x][y]
+					sum[x] << matriz[x][y] + matrizb.matriz[x][y]
 				end
-				j= j+1			
+				y= y+1			
 			end
-			i=i+1
-			j=0
+			x=x+1
+			y=0
 		end
 		Matriz.new (sum)
 
