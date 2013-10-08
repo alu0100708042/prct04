@@ -13,7 +13,7 @@
 	# asignación de get y set
 
 	attr_reader :matriz, :filas, :columnas
-
+	#metodo para mostrar las matrices
 	def imprimir_Matriz
 		x,y = 0,0
 		
@@ -28,4 +28,25 @@
     			j = 0
 		end
 		puts 
+	end
+
+	# definicion del metodo sumar
+
+	def sumar (matrizb)
+		sum = []
+		x,y =0,0
+		while x < row
+			while y < col
+				if y == 0
+					sum << [matriz[i][j]] + matrizb.matriz[i][j]
+				else
+					sum[i] << matriz[x][y] + matrizb.matriz[x][y]
+				end
+				j= j+1			
+			end
+			i=i+1
+			j=0
+		end
+		Matriz.new (sum)
+
 	end
