@@ -38,7 +38,7 @@
 		while x < row
 			while y < col
 				if y == 0
-					sum << [matriz[x][y]] + matrizb.matriz[x][y]
+					sum << [matriz[x][y] + matrizb.matriz[x][y]]
 				else
 					sum[x] << matriz[x][y] + matrizb.matriz[x][y]
 				end
