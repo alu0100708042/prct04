@@ -24,3 +24,19 @@ m1, m2 = read_File('datos')
 
 m_MatrizA = Matriz.new(m1)
 m_MatrizB = Matriz.new(m2)
+
+puts "Matriz A:"
+m_MatrizA.mostrar_Matriz()
+
+puts
+
+puts "Matriz B:"
+m_MatrizB.mostrar_Matriz()
+
+puts "Suma de las dos matrices"
+m_MatrizA.sumar(m_MatrizB).mostrar_Matriz
+
+puts " Multiplicacion de dos matrices"
+m_MatrizA.multiplicar(m_MatrizB).mostrar_Matriz
+puts
+
